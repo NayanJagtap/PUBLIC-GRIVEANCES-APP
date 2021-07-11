@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellowpage3"
+    tools:context=".managementpg5">
+
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/edit_view_border"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        android:text="9021478995"
+        android:textColor="#D32F2F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/edit_view_border"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:text="  ENTER YOUR PROBLEM HERE"
+        android:textColor="#100D0D"
+        android:textColorHighlight="#7C4DFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phonenumber"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="134dp"
+        android:background="@drawable/textview_border"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textAlignment="center"
+        android:textColor="#D32F2F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:background="@drawable/drawer_border"
+        android:foregroundGravity="center"
+        android:gravity="fill_horizontal"
+        android:theme="@style/spinnertheme1"
+        app:layout_constraintBottom_toTopOf="@+id/phonenumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#DCE812DD"
+        android:text="SEND"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

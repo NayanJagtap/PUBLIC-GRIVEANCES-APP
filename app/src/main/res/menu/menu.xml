@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:title="@string/menu_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            ></item>
+        <item android:id="@+id/web"
+            android:title="FOR WEBSITE VERSION"
+            android:icon="@drawable/ic_baseline_web_24"
+            ></item>
+        <item android:id="@+id/person"
+            android:title="FOR DEVELOPER INFO"
+            android:icon="@drawable/ic_baseline_person_24"
+            ></item>
+    </group>
+
+</menu>

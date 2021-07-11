@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mount2"
+    tools:context=".managementpg4">
+
+    <NumberPicker
+        android:id="@+id/numberPicker3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="288dp"
+        android:solidColor="@color/purple_700"
+        android:theme="@style/NumberPickerTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="68dp"
+        android:background="#FFA000"
+        android:ems="10"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="ENTER YOUR AREA"
+        android:textColor="#0C0101"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="92dp"
+        android:background="#F57C00"
+        android:fontFamily="@font/alfa_slab_one"
+        android:onClick="buttton3"
+        android:text="CLICK HERE TO CONTINUE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
